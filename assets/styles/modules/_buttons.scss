@@ -1,0 +1,9 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+button {
+  @include button-base;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,13 @@
+@mixin button-base() {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	border: none;
+	vertical-align: middle;
+	text-transform: uppercase;
+	text-align: center;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
