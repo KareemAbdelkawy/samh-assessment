@@ -25,7 +25,7 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'format-detection', content: 'telephone=no' },
-        { name: 'author', content: 'Ntsal' },
+        { name: 'author', content: 'kareem' },
         {
           hid: 'description',
           name: 'description',
